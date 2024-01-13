@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Dashboard"
+            android:id="@+id/Muhammad"
+            android:textSize="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tombolgalery"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerInParent="true"
+                    android:alpha="0.1"
+                    android:src="@drawable/wa" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="Portofolio"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/chat"
+            android:layout_toRightOf="@id/tombolgalery"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="@color/white">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:alpha="0.1"
+                    android:src="@drawable/wa" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="Testimoni"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/testi"
+            android:layout_toRightOf="@id/chat"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="@color/white">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerInParent="true"
+                    android:alpha="0.1"
+                    android:src="@drawable/wa" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="About me"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <Button
+            android:id="@+id/ExitButton"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:text="EXIT"
+            android:textColor="@color/orange"
+            android:textSize="14sp"
+            app:cornerRadius="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/chat"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

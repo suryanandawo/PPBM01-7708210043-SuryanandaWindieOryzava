@@ -1,0 +1,82 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cardlaout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="310dp"
+            android:text="Photoshoot"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cardlaout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-74dp"
+            android:text="Nature Photography"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardlaout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="0"
+                app:iss_delay="1000"
+                app:iss_period="1000"
+                app:iss_text_align="CENTER" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/nature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider_nature"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="0"
+                app:iss_delay="1000"
+                app:iss_period="1000"
+                app:iss_text_align="CENTER" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>

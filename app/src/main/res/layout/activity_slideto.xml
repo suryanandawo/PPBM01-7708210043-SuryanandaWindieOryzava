@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlidetoAct">
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/slide"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="32dp"
+        android:elevation="6dp"
+        app:animation_duration="250"
+        app:area_margin="10dp"
+        app:border_radius="40dp"
+        app:bounce_on_start="true"
+        app:inner_color="@color/white"
+        app:outer_color="@color/orange"
+        app:slider_height="80dp"
+        app:slider_locked="false"
+        app:text="Konfirmasi"
+        app:text_size="16sp" />
+
+    <TextView
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/slide"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="-90dp"
+        android:text="Geser untuk Konfirmasi Pembayaran anda"
+        android:textColor="@color/orange"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+</RelativeLayout>

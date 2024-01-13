@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bekgronlogin"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Daftar"
+        android:textSize="32dp"
+        android:textColor="@color/black"></TextView>
+
+    <EditText
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@null"
+        android:hint="     nama"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:background="@drawable/kolomnama"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@null"
+        android:hint="     kata sandi"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="278dp"
+        android:background="@drawable/kolomnama"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@null"
+        android:hint="    ulangi kata sandi"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="342dp"
+        android:background="@drawable/kolomnama"/>
+
+    <TextView
+        android:id="@+id/sudah"
+        android:layout_width="264dp"
+        android:layout_height="25dp"
+        android:text="  sudah punya akun?"
+        android:textColor="#FFA502"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regist"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle2"
+        android:fontFamily="@font/poppins_medium"
+        android:text="lanjut"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/salylogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        />
+
+</RelativeLayout>

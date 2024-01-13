@@ -1,0 +1,23 @@
+<!-- res/layout/custom_snackbar_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/orange">
+
+    <ImageView
+        android:id="@+id/snackbar_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/vector1" />
+
+    <TextView
+        android:id="@+id/snackbar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="16dp"
+        android:textSize="15sp"
+        android:text="Terima kasih telah menghubungi" />
+</LinearLayout>

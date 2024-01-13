@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bekgronkedua"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/logobranding"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="pilih salah satu dibawah ini!"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:id="@+id/checkBox_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Logo Design"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Mockup"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Brand Identity"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="325dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="kita bantu bikin logo untuk bisnis kamu!"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="445dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="kita bantu bikin mockup untuk produk kamu!"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="385dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="kita bantu bikin mockup untuk produk kamu!"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fotolanjut"
+        android:layout_width="198dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="selanjutnya"
+        android:textAllCaps="false"
+        android:textColor="#0BEAA7"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="431dp"
+        android:background="@drawable/rectangle21"/>
+
+    <ImageView
+        android:layout_width="392dp"
+        android:layout_height="376dp"
+        android:layout_marginTop="560dp"
+        android:src="@drawable/saly16" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="555dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="kembali"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+</RelativeLayout>

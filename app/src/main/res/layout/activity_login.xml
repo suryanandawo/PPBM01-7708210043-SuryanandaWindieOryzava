@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bekgronlogin"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Masuk"
+        android:textSize="32dp"
+        android:textColor="@color/black"></TextView>
+
+    <EditText
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:hint="   nama"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="216dp"
+        android:background="@drawable/kolomnama"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:hint="  kata sandi"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="278dp"
+        android:background="@drawable/kolomnama"/>
+
+    <TextView
+        android:id="@+id/belum"
+        android:layout_width="264dp"
+        android:layout_height="20dp"
+        android:text="  belum punya akun?"
+        android:textColor="#FFA502"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/salylogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_marginTop="435dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="lanjut"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="431dp"
+        android:background="@drawable/rectangle2"/>
+
+</RelativeLayout>
